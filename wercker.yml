@@ -30,5 +30,5 @@ build:
     - script:
         name: go run
         code: |
-          go run 1.go
+          go run ./...
 
