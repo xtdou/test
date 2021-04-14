@@ -28,7 +28,7 @@ build:
 
     # Build the project
     - script:
-        name: go run
+        name: go build
         code: |
-          go run ./...
+          go build ./...
 
